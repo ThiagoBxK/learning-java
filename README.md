@@ -5,3 +5,4 @@
 - [x] [Overloaded Constructors](./src/oop/OverloadedConstructors/OverloadedConstructors.java)
 - [x] [Getters and Setters](./src/oop/GettersAndSetters/GettersAndSetters.java)
 - [x] [AbstractClass](./src/oop/AbstractClass)
+- [ ] [Annotations](./src/oop/Annotations) (@Override & @Deprecated)
