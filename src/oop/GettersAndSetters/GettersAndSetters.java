@@ -1,4 +1,4 @@
-package oop;
+package oop.GettersAndSetters;
 
 public class GettersAndSetters {
     private String name;
