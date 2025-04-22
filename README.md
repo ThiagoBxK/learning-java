@@ -11,6 +11,6 @@
 - [x] [Wrapper Class](./src/oop/WrapperClass)
 
 ## Data Structures
-- [x] [Arrays](./src/oop/AbstractClass)
-- [x] [Lists](./src/oop/AbstractClass)
-- [x] [Object Arrays](./src/oop/AbstractClass)
+- [x] [Arrays](./src/data_structures/Arrays)
+- [x] [Lists](./src/data_structures/Lists)
+- [x] [Object Arrays](./src/data_structures/ObjectArrays)
