@@ -10,7 +10,7 @@
 - [x] [Primitive Types](./src/oop/PrimitiveTypes)
 - [x] [Wrapper Class](./src/oop/WrapperClass)
 
-### Data Structures
+## Data Structures
 - [x] [Arrays](./src/oop/AbstractClass)
 - [x] [Lists](./src/oop/AbstractClass)
 - [x] [Object Arrays](./src/oop/AbstractClass)
