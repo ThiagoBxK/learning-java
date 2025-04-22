@@ -1,3 +1,5 @@
+### Lists
+
 Uma **List** em Java representa uma coleção de elementos onde os dados podem ser acessados através de índices, semelhante a um array. A vantagem é a sua flexibilidade de adicionar e remover elementos de forma dinâmica, sem precisar se preocupar com o tamanho fixo, como ocorre nos arrays.
 
 - A ordem de inserção é preservada.

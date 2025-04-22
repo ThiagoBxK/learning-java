@@ -1,9 +1,9 @@
 package oop.GettersAndSetters;
 
-public class GettersAndSetters {
+public class Person {
     private String name;
 
-    public GettersAndSetters(String name) {
+    public Person(String name) {
         this.name = name;
     }
 
@@ -18,5 +18,4 @@ public class GettersAndSetters {
     public void sayHello() {
         System.out.printf("Hello %s! \n", this.name);
     }
-
 }

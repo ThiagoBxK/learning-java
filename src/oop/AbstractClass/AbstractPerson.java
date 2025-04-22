@@ -1,6 +1,6 @@
 package oop.AbstractClass;
 
-public abstract class AbstractClass {
+public abstract class AbstractPerson {
     public String name;
 
     public String getName() {

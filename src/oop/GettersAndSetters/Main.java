@@ -2,10 +2,10 @@ package oop.GettersAndSetters;
 
 public class Main {
     public static void main(String[] args) {
-        GettersAndSetters gettersAndSetters = new GettersAndSetters("Unknown");
+        Person person = new Person("Unknown");
 
-        gettersAndSetters.sayHello(); // Hello Unknown!
-        gettersAndSetters.setName("John Doe");
-        System.out.printf(gettersAndSetters.getName()); // Thiago
+        person.sayHello(); // Hello Unknown!
+        person.setName("John Doe");
+        System.out.printf(person.getName()); // John Doe
     }
 }

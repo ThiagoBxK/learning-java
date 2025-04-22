@@ -1,8 +1,8 @@
-import oop.AbstractClass.ConcretClass;
+import oop.AbstractClass.Person;
 
 public class Main {
     public static void main(String[] args) {
-        ConcretClass concretClass = new ConcretClass("Thiago");
+        Person concretClass = new Person("Thiago");
 
         concretClass.sayHello();
     }

@@ -1,7 +1,7 @@
 package oop.AbstractClass;
 
-public class ConcretClass extends AbstractClass {
-    public ConcretClass(String name) {
+public class Person extends AbstractPerson {
+    public Person(String name) {
         this.name = name;
     }
 

@@ -1,15 +1,22 @@
-Construtores são métodos dentro de uma classe usados para inicializar objetos. Eles são chamados automaticamente quando a classe é instanciada, e servem para definir valores iniciais para os atributos do objeto. 
+### Constructors
 
--  O construtor deve ter o mesmo nome da classe.
--  É possível passar parâmetros para o construtor.
--  Não possui retorno.
+Construtores são métodos dentro de uma determinada classe usados para inicializar objetos é seus valores, Eles são chamados automaticamente quando a classe é instanciada
 
+- O construtor deve ter exatamente o mesmo nome da classe
+- É possível passar parâmetros para o construtor
+- Não possui retorno
+
+Criamos uma classe chamada `Person` que automaticamente quando instanciada printa a mensagem `Hello World!`.
 ```java
-public class Constructor {  
-	// Construtor sem parâmetro
-    public Constructor() {  
-        String message = "Hello Wolrd!";  
+public class Person {  
+    public Person() {  
+        String message = "Hello World!";  
         System.out.println(message);  
     }
 }
+```
+
+Instanciando uma nova `Person`
+```java
+Person person = new Person();
 ```
