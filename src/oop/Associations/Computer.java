@@ -1,12 +1,7 @@
-package oop.Compositions;
+package oop.Associations;
 
 public class Computer {
-    private Processor processor;
     public boolean isPoweredOn = false;
-
-    public Computer() {
-        this.processor = new Processor();
-    }
 
     public void turnOn() {
         // ... Logic
