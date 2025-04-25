@@ -1,14 +1,16 @@
 package data_structures.Arrays;
+
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] numbers = new int[]{1,2,3,4,5};
+        int[] numbers = new int[]{1, 2, 3, 4, 5};
 
-        System.out.printf("Array size: %s \n", numbers.length);
+        System.out.printf("Tamanho do Array: %s", numbers.length);
+
+        // Alterando valor do índice 0 que seria 1 para 0
         numbers[0] = 10;
-
-        System.out.printf("Array address in memory: %s \n", numbers);
-        System.out.printf("Array formated: %s \n", Arrays.toString(numbers));
+        // Visualizar na tela no formato String
+        System.out.println(Arrays.toString(numbers));
     }
 }

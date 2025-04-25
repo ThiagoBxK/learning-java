@@ -1,16 +1,22 @@
-### Arrays
+## Arrays
+`Arrays` são estruturas de dados que permitem armazenar vários valores do mesmo tipo em uma única variável.
 
-Arrays são estruturas de dados que permitem armazenar vários valores do mesmo tipo em uma única variável. Cada valor é armazenado em uma posição específica (índice) que pode ser acessado ou alterado.
+Índice - Seus valores são acessados e alterados através de índices
+- O primeiro elemento de um `Array` sempre inicia com índice 0;
+- Em JAVA `Arrays` são criados com tamanhos fixos, não é possível adicionar ou remover um elemento após sua criação;
+- Os valores podem ser mutáveis;
 
-- O primeiro elemento de um array sempre começa com índice 0.
-- O tamanho do array é fixo, ou seja, definido no momento da criação e não pode ser alterado depois.
-- Não é possível adicionar ou remover elementos, mas é possível modificar os valores existentes usando seus índices.
+
+`Exemplo:` Criamos um `Array` apenas com números inteiros, e inicializamos ele com valores de 1 a 5, agora temos um `Array` de 4 índices e com tamanho 5.
 
 ```java
 int[] numbers = new int[]{1, 2, 3, 4, 5};    
 
-System.out.printf("Tamanho do array: %s", numbers.length);   
-numbers[0] = 10;
-```
+System.out.printf("Tamanho do Array: %s", numbers.length);
 
-Iniciamos um novo `Array` de inteiros, e adicionamos os valores [1,2,3,4,5], printamos o tamanho do `Array` usando o método `.length`, após isso adicionamos um novo valor ao `Indice` 0 do `Array` para 10
+// Alterando valor do índice 0 que seria 1 para 0
+numbers[0] = 10;
+
+// Visualizar na tela no formato String
+System.out.println(Arrays.toString(numbers)); 
+```
