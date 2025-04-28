@@ -8,7 +8,6 @@ public class Main {
                 new Person("Carol")
         };
 
-        System.out.println(persons.length);
         System.out.println(persons[0].getName());
     }
 }

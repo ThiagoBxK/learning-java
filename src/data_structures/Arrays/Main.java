@@ -10,6 +10,7 @@ public class Main {
 
         // Alterando valor do índice 0 que seria 1 para 0
         numbers[0] = 10;
+
         // Visualizar na tela no formato String
         System.out.println(Arrays.toString(numbers));
     }
